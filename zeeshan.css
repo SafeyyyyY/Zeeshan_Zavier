@@ -1,7 +1,7 @@
 :root {
   --accent: #f5b906;
   --accent2: #3b82f6;
-  --card-bg: rgba(21, 0, 0, 0.068); /* transparan lembut */
+  --card-bg: rgba(21, 0, 0, 0.485); /* transparan lembut */
   --text: #1e293b;
   --muted: #cce1ff;
 }
@@ -29,13 +29,13 @@ body {
 /* ===== HERO (banner atas) ===== */
 .hero {
   position: relative;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(4, 4, 4, 0.351);
   border-radius: 20px;
   padding: 40px 20px;
   text-align: center;
   color: #fff;
   box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-  backdrop-filter: blur(75px);
+  backdrop-filter: blur(100px);
 }
 
 .hero::before {
