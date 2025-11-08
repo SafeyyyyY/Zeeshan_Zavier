@@ -72,7 +72,7 @@ body {
 /* ===== CARD (konten umum) ===== */
 .card {
   background: var(--card-bg);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(50px);
   border-radius: 16px;
   padding: 25px;
   margin-top: 16px;
@@ -131,13 +131,13 @@ body {
 }
 
 .media-row .caption {
-  font-size: 18px;
-  background: rgba(255, 255, 255, 0.2);
+  font-size: 15px;
+  background: rgba(0, 0, 0, 0.2);
   color: #fff;
   padding: 10px;
   border-radius: 8px;
   flex: 1;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(50px);
   text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
 }
 
